@@ -122,6 +122,22 @@
     font-size: 60px;
 }
 
+.ex-11-icon:hover{
+    animation: semi-spin 2.5s;
+}
+
+@keyframes semi-spin{
+    0%{
+        transform:rotate(0deg);
+    }
+    60%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
 /* es12 */
 .ex-12-button, .ex-13-button {
     position: relative;
